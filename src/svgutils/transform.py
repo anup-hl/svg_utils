@@ -150,7 +150,8 @@ def fromstring(text):
     fig.root = svg
 
     return fig
-
+    
+'''
 def from_mpl(fig):
 
     fid = StringIO()
@@ -167,3 +168,4 @@ def from_mpl(fig):
     fig.set_size((w.replace('pt', ''), h.replace('pt', '')))
 
     return fig
+'''
